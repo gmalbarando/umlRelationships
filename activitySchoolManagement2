@@ -1,0 +1,29 @@
+
+print("\n-----Exercise2-----")
+
+class Person:
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+
+    def get_age(self):
+        return self.__age
+
+p1 = Person("Lina", 20)
+
+print(f"Name: {p1._Person__name}")
+print(f"Age: {p1.get_age()}")
+#Comment: It's better to use getter and setter methods to access private attributes instead of accessing them directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
